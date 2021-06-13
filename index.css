@@ -1,0 +1,641 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.seg1{
+    height: 130px;
+    background-color: rgb(238, 248, 246);
+}
+
+.seg1 i{
+    display: none;
+}
+
+
+.logo{
+    width: 130px;
+    height: 60px;
+    background-color:transparent;
+    background-image: url("TmrLOGO2.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+}
+
+.seg1_2{
+    height: 130px;
+    background-color: rgb(238, 248, 246);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.seg1_2 ul{
+    width: 100%;
+    
+
+}
+
+.seg1_2 ul a{
+    text-decoration: none;
+    color: rgba(110, 110, 110, 0.993);
+    transition: all 0.5s ease;
+    font-weight: bold;
+}
+.seg1_2 ul a:hover{
+    font-weight: bold;
+    transition: all 0.6s ease;
+    color: black;
+}
+
+.seg1_2 ul li{
+    float: left;
+    margin-left: 80px;
+    list-style-type: none;
+    font-family: Poppins;
+    margin-top: 100px;
+    
+}
+
+#contact{
+    width: 155px;
+    height: 42px;
+    background-color: rgb(16, 49, 43);
+    border: solid thin black;
+    color: white;
+    box-shadow: 0px 0px 5px gainsboro;
+    justify-items: center;
+    font-family: Poppins;
+    margin-top: 40px;
+
+}
+
+
+.seg2{
+    height: 550px;
+    background-color: rgb(238, 248, 246);
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+
+
+.form_block{
+    height: 410px;
+    position: absolute;
+    z-index: 6;
+    box-shadow: 0px 0px 3px gray;
+    background-color: rgb(84, 110, 105);
+    border-radius: 5px;
+   
+}
+
+.form_block i{
+    font-size: 50px;
+    color: rgb(16, 49, 43);
+    margin-left: 35%;
+    position: absolute;
+    margin-top: -10%;
+    width: 69px;
+    height: 69px;
+    background-color: wheat;
+    border-radius: 50%;
+    padding-left: 4.5%;
+    padding-top: 2%;
+    border: solid 2px rgb(84, 110, 105);
+    box-shadow: 0px 0px 3px rgb(84, 110, 105);
+}
+
+.form_block form{
+    margin-left: 9%;
+}
+
+
+
+.form_block form input{
+    margin-top: 8px;
+    justify-content: center;
+    width: 90%;
+    height: 32px;
+    border:solid thin gray;
+    border-radius: 3px;
+    padding-left: 10px;
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 13px;
+
+}
+
+.seg2 p{
+    font-family: Raleway;
+    font-size: 20px;
+    color: rgb(99, 153, 144);
+    font-weight: bold;
+    margin-top: 8%;
+}
+
+.seg2 h1{
+    font-family: Anton;
+    font-size: 55px;
+    color: rgb(16, 49, 43);
+    font-weight: bold;
+    margin-top: 20%;
+}
+
+#enquiry{
+    position: absolute;
+    width: 175px;
+    height: 48px;
+    border: solid thin black;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px gainsboro;
+    background: rgb(16, 49, 43);
+    margin-top: 65%;
+    color: whitesmoke;
+    font-family: Poppins;
+    left: 180px;
+    transition: all 0.5s ease;
+
+}
+
+#enquiry:hover{
+    box-shadow: 2px 8px 35px rgb(16, 49, 43);
+    transition: all 0.5s ease;
+}
+
+.seg2_2{
+    height: 550px;
+    background: rgb(238, 248, 246);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form_block{
+    margin-top: 10%;
+}
+
+
+.form_block form{
+    margin-top: 80px;
+}
+
+#submit1{
+    width: 120px;
+    margin-top: 100px;
+    background-color:rgb(16, 49, 43) ;
+    border: solid thin black;
+    color: white;
+    padding-left: 0%;
+
+}
+
+
+
+.seg3{
+    height: 500px;
+    background: rgb(238, 248, 246);
+    
+    
+}
+
+.product_block{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    background: linear-gradient(45deg,rgb(99, 153, 144), rgb(77, 128, 119) );
+    float: left;
+    margin-left: 6%;
+    margin-top: 10px;
+    box-shadow: 0px 0px 5px gainsboro;
+    border: solid thin rgb(29, 56, 52);
+    border-radius: 5px;
+
+
+}
+
+.product_block div{
+    width: 100%;
+    height: 70%;
+    background-color: gainsboro;
+    position: absolute;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding-left: 0%;
+    margin: 0%;
+    background-image: url("table.png");
+    background-size: 100%;
+    display: flex;
+    
+
+}
+
+.product_block h1{
+    width: 100%;
+    height: 25%;
+    background-color: gainsboro;
+    font-family: Poppins;
+    color: rgb(29, 56, 52);
+    position: absolute;
+    bottom:25px;
+    text-align: center;
+}
+
+.product_block p{
+    width: 100%;
+    height: 15%;
+    background-color: gainsboro;
+    font-family: Poppins;
+    color: rgb(29, 56, 52);
+    position: absolute;
+    bottom: -10px;
+    text-align: center;
+}
+
+
+.seg4{
+    height: 300px;
+    background-color: rgb(238, 248, 246);
+}
+
+.seg4 div{
+    height: 290px;
+    float: left;
+    
+    
+}
+
+.seg4 div h1{
+    font-family: Anton;
+    font-size: 38px;
+    color: rgb(29, 56, 52);
+    text-align: center;
+    font-weight: bold;
+}
+
+.seg4 div p{
+    font-family: Poppins;
+    font-size: 18px;
+    color: rgb(29, 56, 52);
+    text-align: center;
+}
+.seg4 div i{
+    margin-left: 40%;
+    font-size: 50px;
+}
+
+.seg5{
+    height: 500px;
+    background-color: rgb(238, 248, 246);
+    display: inline-block;
+}
+
+.seg5 h2{
+    font-family: Raleway;
+    font-weight: bold;
+    color: rgb(29, 56, 52);
+}
+
+.seg5 div{
+    width: 100%;
+    height: 100px;
+    display: flex;
+   
+    background-color: rgb(166, 211, 202);
+    border: dashed thin rgb(10, 114, 93);
+    margin-top: 10px;
+    transition: all 0.6s ease;
+    
+}
+
+.seg5 div p{
+    font-family: Poppins;
+    font-weight: bold;
+    width: 96%;
+    height: 15%;
+    padding-left: 8px;
+    
+    margin-top: 3%;
+   
+   
+}
+
+.text_block{
+  
+}
+
+
+.seg5 div label{
+   
+   position: absolute;
+   padding-left: 8px;
+   padding-right: 8px;
+   margin-top: 7%;
+   font-family: Raleway;
+
+    
+}
+
+.seg5 div h6{
+    margin-top: 120px;
+}
+
+
+.seg5_2{
+    height: 500px;
+    background:rgb(238, 248, 246) ;
+    background-image: url("play1.png");
+    background-size: 35%;
+    padding-top: 200px;
+    background-repeat: no-repeat;
+   
+}
+
+.seg5_2 h1{
+    font-family: Poppins;
+    
+}
+.seg5_2 p{
+    font-family: Raleway;
+    font-weight: bold;
+}
+
+
+
+
+.seg6{
+    height: 300px;
+    background: rgb(29, 56, 52);
+}
+
+.seg6 h1{
+    font-family: Poppins;
+    color:rgb(199, 230, 225);
+}
+.seg6 ul li{
+    font-family: Raleway;
+    color:rgb(199, 230, 225);
+    font-weight: bold;
+    list-style-type: none;
+    margin-top: 2%;
+
+}
+
+
+.seg6_2{
+    height: 300px;
+    background: rgb(29, 56, 52);
+}
+.seg6_2 h1{
+    color:rgb(199, 230, 225);
+    font-family: Poppins;
+    
+}
+.seg6_2 ul li{
+    color:rgb(199, 230, 225);
+    font-family: Raleway;
+    margin-top: 2%;
+    font-weight: bold;
+    list-style-type: none;
+}
+
+.seg6_3{
+    height: 300px;
+    background: rgb(29, 56, 52);
+    display: flex;
+}
+
+.seg6_3 a i{
+    font-size: 26px;
+    color: rgb(199, 230, 225);
+    margin-left: 5%;
+    padding-left: 15px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Mobile View*/
+
+@media only screen and (max-width: 460px){
+
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    
+
+    .seg1_2{
+        position: absolute;
+        display: flex;
+        height: 130px;
+        justify-content: flex-start;
+        z-index: 5;
+    }
+
+    .seg1_2 ul{
+        margin-left: 0%;
+        
+        display: none;
+        padding-left: 0%;
+        padding-right: 0%;
+        width: 100%;
+        box-sizing: border-box;
+        background-color:rgb(16, 49, 43);
+        
+        
+    }
+
+    .seg1_2 ul li{
+        margin-left: 0%;
+        float: initial;
+        margin-top: 5%;
+        color:white;
+        text-align: center;
+    }
+
+    #contact{
+        position: absolute;
+        z-index: -1;
+    }
+
+    .seg1 i{
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 40px;
+        font-size: 22px;
+
+    }
+
+    .form_block{
+        position: absolute;
+        width: 100%;
+
+    }
+
+    .form_block i{
+        font-size: 50px;
+        color: rgb(16, 49, 43);
+        left: 0%;
+        position: absolute;
+        z-index: 3;
+        top: -3%;
+        width: 62px;
+        height: 62px;
+        background-color: wheat;
+        border-radius: 50%;
+        padding-left: 3px;
+        padding-top: 2%;
+        
+        border: solid 2px rgb(84, 110, 105);
+        box-shadow: 0px 0px 3px rgb(84, 110, 105);
+    }
+    
+
+    .seg2{
+        height: 300px;
+    }
+
+    .seg2 h1{
+        font-family: Anton;
+        position: absolute;
+        font-size: 33px;
+        color: rgb(16, 49, 43);
+        font-weight: bold;
+        margin-top: 20%;
+        text-align: center;
+    }
+
+
+    .product_block{
+        margin-left: 0%;
+        height: 40%;
+        box-shadow: 0px 0px 3px rgb(16, 49, 43);
+    }
+
+    #enquiry{
+        width: 92%;
+        margin-left: 0%;
+        
+        left: 4%;
+        right: 0%;
+    }
+
+    .seg4{
+        box-shadow: 0px 0px 4px gray;
+    }
+
+    .seg4 div{
+        height: 120px;
+        width: 50%;
+        float: left;
+        margin-top: 20px;
+        
+    }
+
+    .seg4 div i{
+        font-size: 20px;
+    }
+
+    .seg4 div h1{
+        font-size: 25px;
+    }
+
+    .seg6_3{
+        display: flex;
+        justify-content: space-around;
+        height: 100px;
+    }
+
+    .seg6_3 a i{
+        width: 100%;
+        font-size: 45px;
+        
+    }
+
+
+
+
+
+
+
+
+}
+
+
+
+
+/*Tablet View---landscape View*/
+
+
+@media only screen and (max-width: 900px){
+
+    .seg1_2{
+        display: flex;
+        justify-content: flex-start;
+        
+    }
+
+    .seg1_2 ul{
+        margin: 0%;
+
+    }
+
+    .seg1_2 ul li{
+        font-size: 15px;
+        margin-left: 9%;
+    }
+
+    .product_block{
+        margin-left: 0%;
+        height: 40%;
+        box-shadow: 0px 0px 3px rgb(16, 49, 43);
+    }
+
+    .form_block i{
+        font-size: 50px;
+        color: rgb(16, 49, 43);
+        margin-left: 42%;
+        padding-left: 2.3%;
+        padding-top:1%;
+        margin-top: -4%;
+        
+    }
+
+
+
+    .seg4 div{
+        height: 120px;
+        width: 50%;
+        float: left;
+        margin-top: 20px;
+        
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
